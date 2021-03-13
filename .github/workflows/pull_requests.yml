@@ -1,10 +1,7 @@
 name: PR -  Molecule Test
 on:
   pull_request:
-    branches:
-    - master
-    - main
-    - OR
+    branches: [ master ]
 
 jobs:
   build:
